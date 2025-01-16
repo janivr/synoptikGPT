@@ -11,4 +11,5 @@ app_log.log
 .streamlit/secrets.toml
 .streamlit/
 *.toml
+Buildings.xlsx
 

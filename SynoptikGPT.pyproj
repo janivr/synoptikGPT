@@ -47,6 +47,7 @@
     <Compile Include="src\query_engine\__init__.py" />
     <Compile Include="src\query_processor.py" />
     <Compile Include="src\response_generator.py" />
+    <Compile Include="src\utils\analyze_interactions.py" />
     <Compile Include="src\utils\data_loader.py" />
     <Compile Include="src\utils\data_loader_old.py" />
     <Compile Include="src\utils\gpt_helper.py" />
