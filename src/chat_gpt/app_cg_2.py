@@ -20,6 +20,10 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+# read version 
+with open("version.txt", "r") as f:
+    app_version = f.read().strip()
+    
 # Console logging setup
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
@@ -327,6 +331,9 @@ def download_database():
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
 st.title("Real Estate Assistant AI")
+
+# Display version in the sidebar
+st.sidebar.markdown(f"### Version: {app_version}")
 
 # Upload and Process Datasets
 if not st.session_state.get("data_uploaded"):
