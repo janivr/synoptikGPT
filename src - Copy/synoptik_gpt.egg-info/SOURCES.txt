@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/Modules/__init__.py
+src/Modules/buildings.py
+src/Modules/financial.py
+src/cli/__init__.py
+src/cli/streamlit_app.py
+src/synoptik_gpt.egg-info/PKG-INFO
+src/synoptik_gpt.egg-info/SOURCES.txt
+src/synoptik_gpt.egg-info/dependency_links.txt
+src/synoptik_gpt.egg-info/requires.txt
+src/synoptik_gpt.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/data_loader.py
+src/utils/openai_helper.py

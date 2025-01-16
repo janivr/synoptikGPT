@@ -1,0 +1,103 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d09454d1-17dc-4798-b1b7-0b146fb7e8f1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>SynoptikGPT.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>SynoptikGPT</Name>
+    <RootNamespace>SynoptikGPT</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app_old.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="app.py" />
+    <Compile Include="src\agent\data_aware.py" />
+    <Compile Include="src\agent\scalable_agent.py" />
+    <Compile Include="src\agent\__init__.py" />
+    <Compile Include="src\chat_gpt\app_cg.py" />
+    <Compile Include="src\chat_gpt\app_cg_2.py" />
+    <Compile Include="src\cli\streamlit_app.py" />
+    <Compile Include="src\cli\__init__.py" />
+    <Compile Include="src\data_manager.py" />
+    <Compile Include="src\data_manager\file_handler.py" />
+    <Compile Include="src\data_manager\manager.py" />
+    <Compile Include="src\data_manager\__init__.py" />
+    <Compile Include="src\data_models\buildings.py" />
+    <Compile Include="src\data_models\financial.py" />
+    <Compile Include="src\gpt_engine.py" />
+    <Compile Include="src\main.py" />
+    <Compile Include="src\modules\buildings.py" />
+    <Compile Include="src\modules\financial.py" />
+    <Compile Include="src\modules\query_processor.py" />
+    <Compile Include="src\modules\__init__.py" />
+    <Compile Include="src\query_engine\engine.py" />
+    <Compile Include="src\query_engine\__init__.py" />
+    <Compile Include="src\query_processor.py" />
+    <Compile Include="src\response_generator.py" />
+    <Compile Include="src\utils\data_loader.py" />
+    <Compile Include="src\utils\data_loader_old.py" />
+    <Compile Include="src\utils\gpt_helper.py" />
+    <Compile Include="src\utils\openai_helper.py" />
+    <Compile Include="src\utils\response_generator.py" />
+    <Compile Include="src\utils\utils.py" />
+    <Compile Include="src\utils\__init__.py" />
+    <Compile Include="src\__init__.py" />
+    <Compile Include="SynoptikGPT.py" />
+    <Compile Include="tests\conftest.py" />
+    <Compile Include="tests\test_gpt_helper.py" />
+    <Compile Include="tests\test_modules\test_buildings.py" />
+    <Compile Include="tests\test_modules\test_data_loader.py" />
+    <Compile Include="tests\test_modules\test_financial.py" />
+    <Compile Include="tests\test_queries.py" />
+    <Compile Include="test_imports.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".env" />
+    <Content Include="data\Buildings.csv" />
+    <Content Include="data\Financial_Data.csv" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+    <Content Include="run.bat" />
+    <Content Include="setup.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="logs\" />
+    <Folder Include="docs\" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="src\cli\" />
+    <Folder Include="src\data_models\" />
+    <Folder Include="src\agent\" />
+    <Folder Include="src\data_manager\" />
+    <Folder Include="src\chat_gpt\" />
+    <Folder Include="src\query_engine\" />
+    <Folder Include="tests\" />
+    <Folder Include="src\" />
+    <Folder Include="src\modules\" />
+    <Folder Include="src\prompts\" />
+    <Folder Include="src\utils\" />
+    <Folder Include="tests\test_modules\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

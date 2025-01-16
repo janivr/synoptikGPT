@@ -1,0 +1,49 @@
+Metadata-Version: 2.2
+Name: synoptik-gpt
+Version: 0.1.0
+Summary: Real Estate Portfolio Management Assistant
+Author:  Janiv Ratson
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+# Synoptik Real Estate Portfolio Assistant (synoptikGPT)
+
+## Overview
+Synoptik is an AI-powered real estate portfolio management tool that provides insights, analytics, and intelligent querying capabilities.
+
+## Features
+- Building Portfolio Management
+- Financial Analysis
+- Natural Language Querying
+- Modular Architecture
+
+## Setup
+1. Clone the repository.
+2. Create a virtual environment.
+3. Install dependencies: `pip install -e .[dev]`.
+4. Set up a `.env` file with your OpenAI API key.
+5. Run the app: `streamlit run src/app.py`.
+
+## Testing
+- Run tests: `pytest`.
+- Generate a coverage report: `pytest --cov=src`.
+
+## Development
+- Code formatter: Black.
+- Linter: Flake8.
+- Type checking: MyPy.

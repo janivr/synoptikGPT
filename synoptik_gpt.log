@@ -1,0 +1,619 @@
+2025-01-13 09:51:09,693 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 09:51:21,245 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:14:57,900 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:21:31,341 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:38:22,502 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:38:22,629 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 10:38:22,651 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 10:38:22,651 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 10:38:22,652 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 10:38:22,656 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 10:38:22,656 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 10:38:22,662 - root - ERROR - Missing required columns in financial data: ['Revenue', 'Expenses']
+2025-01-13 10:43:16,759 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:43:16,883 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 10:43:16,886 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 10:43:16,886 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 10:43:16,886 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 10:43:16,891 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 10:43:16,891 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 10:43:16,897 - root - ERROR - Missing required columns in financial data: ['Revenue', 'Expenses']
+2025-01-13 10:54:36,538 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 10:54:36,678 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 10:54:36,680 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 10:54:36,680 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 10:54:36,681 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 10:54:36,686 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 10:54:36,686 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 10:54:36,693 - root - INFO - Data validation passed successfully
+2025-01-13 10:54:50,286 - root - INFO - Data validation passed successfully
+2025-01-13 10:54:52,669 - root - INFO - Data validation passed successfully
+2025-01-13 10:58:43,015 - root - INFO - Data validation passed successfully
+2025-01-13 11:06:07,725 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:06:08,075 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:06:08,078 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:06:08,078 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:06:08,079 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:06:08,084 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:06:08,084 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:07:52,535 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:07:52,870 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:07:52,873 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:07:52,873 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:07:52,874 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:07:52,879 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:07:52,879 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:09:44,259 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:09:44,590 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:09:44,593 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:09:44,593 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:09:44,594 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:09:44,598 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:09:44,599 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:10:53,335 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:10:53,667 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:10:53,670 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:10:53,670 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:10:53,671 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:10:53,676 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:10:53,676 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:11:12,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:11:21,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:11:29,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:11:35,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:18:12,581 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:18:12,910 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:18:12,913 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:18:12,913 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:18:12,914 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:18:12,918 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:18:12,918 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:18:19,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:21:18,077 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:21:18,417 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:21:18,419 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:21:18,419 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:21:18,421 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:21:18,425 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:21:18,425 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:21:24,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-01-13 11:23:57,809 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:23:58,130 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:23:58,133 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:23:58,133 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:23:58,134 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:23:58,138 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:23:58,139 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:25:10,728 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 11:25:11,056 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 11:25:11,059 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 11:25:11,059 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 11:25:11,060 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 11:25:11,064 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 11:25:11,064 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 11:27:30,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 11:49:48,182 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:12:45,294 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:14:41,349 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:14:41,700 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 12:14:41,703 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 12:14:41,703 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 12:14:41,704 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 12:14:41,708 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 12:14:41,708 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 12:14:52,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 12:15:03,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 12:15:10,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 12:15:19,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 12:26:06,234 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:26:06,566 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 12:26:06,570 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 12:26:06,570 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 12:26:06,571 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 12:26:06,575 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 12:26:06,575 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 12:30:37,976 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:30:38,301 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 12:30:38,304 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 12:30:38,304 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 12:30:38,305 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 12:30:38,310 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 12:30:38,310 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 12:35:38,124 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 12:35:38,447 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 12:35:38,450 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 12:35:38,451 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 12:35:38,451 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 12:35:38,455 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 12:35:38,456 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 12:35:49,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:24:26,054 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:24:26,393 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:24:26,396 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:24:26,396 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:24:26,397 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:24:26,402 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:24:26,402 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 13:28:42,491 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:28:42,818 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:28:42,821 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:28:42,821 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:28:42,822 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:28:42,826 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:28:42,827 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 13:29:01,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:29:46,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:34:53,515 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:34:53,838 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:34:53,841 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:34:53,841 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:34:53,842 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:34:53,846 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:34:53,846 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 13:35:23,749 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:35:24,071 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:35:24,074 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:35:24,074 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:35:24,075 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:35:24,080 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:35:24,080 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 13:35:36,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:35:51,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:36:03,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:36:51,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:37:12,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:37:27,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:37:34,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:37:44,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 13:46:16,366 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:46:16,694 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:46:16,697 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:46:16,698 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:46:16,699 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:46:16,703 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:46:16,703 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 13:47:32,030 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 13:47:32,361 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 13:47:32,363 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 13:47:32,364 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 13:47:32,365 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 13:47:32,369 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 13:47:32,369 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:22:16,148 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:22:16,495 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:22:16,498 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:22:16,498 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:22:16,499 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:22:16,503 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:22:16,503 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:24:29,785 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:24:30,123 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:24:30,126 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:24:30,126 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:24:30,127 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:24:30,131 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:24:30,131 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:26:55,596 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:26:55,929 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:26:55,932 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:26:55,932 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:26:55,933 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:26:55,937 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:26:55,937 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:30:26,454 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:30:26,787 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:30:26,790 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:30:26,790 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:30:26,791 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:30:26,795 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:30:26,795 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:30:53,971 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:30:54,301 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:30:54,304 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:30:54,304 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:30:54,305 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:30:54,309 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:30:54,309 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:31:03,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:32:56,477 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:32:56,829 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:32:56,831 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:32:56,832 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:32:56,832 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:32:56,836 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:32:56,837 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:33:02,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:37:34,549 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:37:34,874 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:37:34,877 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:37:34,877 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:37:34,878 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:37:34,882 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:37:34,882 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:37:55,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:41:26,094 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:41:26,423 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:41:26,426 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:41:26,426 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:41:26,427 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:41:26,431 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:41:26,431 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:41:53,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:01,480 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:08,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:14,851 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:21,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:26,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:42:34,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:49:40,682 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:52:03,436 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:52:59,414 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:52:59,748 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:52:59,751 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:52:59,752 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:52:59,753 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:52:59,757 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:52:59,757 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:53:07,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:54:14,790 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 16:54:15,121 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 16:54:15,123 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 16:54:15,124 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 16:54:15,124 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 16:54:15,129 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 16:54:15,129 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 16:54:32,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:55:21,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:56:04,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:56:55,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:57:26,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:57:36,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:57:44,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 16:58:01,613 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:11:13,259 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 17:11:13,783 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 17:11:13,786 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 17:11:13,786 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 17:11:13,787 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 17:11:13,792 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 17:11:13,792 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 17:11:14,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:11:15,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:11:16,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:11:17,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:11:18,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:01,731 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 17:20:02,042 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 17:20:02,044 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 17:20:02,045 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 17:20:02,046 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 17:20:02,051 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 17:20:02,051 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 17:20:02,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:03,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:03,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:04,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:04,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:20:05,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:24:18,641 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 17:24:18,990 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 17:24:18,993 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 17:24:18,993 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 17:24:18,994 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 17:24:18,998 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 17:24:18,999 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 17:24:27,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:24:41,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:24:50,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:24:57,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:25:35,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 17:25:48,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:32:28,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:32:47,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:32:57,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:33:17,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:36:03,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 18:36:24,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 19:14:22,351 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:14:22,806 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:14:22,825 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:14:22,826 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:14:22,828 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:14:22,843 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:14:22,845 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 19:15:59,376 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:23:45,463 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:24:46,216 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:24:46,548 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:24:46,550 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:24:46,551 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:24:46,552 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:24:46,556 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:24:46,557 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 19:25:01,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 19:48:25,177 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:48:25,537 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:48:25,540 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:48:25,541 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:48:25,541 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:48:25,546 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:48:25,546 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 19:48:50,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 19:49:09,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 19:52:25,047 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:52:25,398 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:52:25,401 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:52:25,401 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:52:25,402 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:52:25,407 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:52:25,407 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 19:56:00,910 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:56:01,240 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:56:01,243 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:56:01,243 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:56:01,244 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:56:01,249 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:56:01,249 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 19:57:41,463 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 19:57:41,791 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 19:57:41,794 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 19:57:41,794 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 19:57:41,795 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 19:57:41,800 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 19:57:41,801 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:03:16,007 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 20:03:16,341 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 20:03:16,344 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 20:03:16,344 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 20:03:16,345 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 20:03:16,349 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 20:03:16,349 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:06:16,396 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 20:06:16,744 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 20:06:16,747 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 20:06:16,747 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 20:06:16,748 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 20:06:16,752 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 20:06:16,753 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:07:30,242 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 20:07:30,576 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 20:07:30,580 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 20:07:30,580 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 20:07:30,581 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 20:07:30,585 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 20:07:30,585 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:10:40,846 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 20:10:41,180 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 20:10:41,184 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 20:10:41,184 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 20:10:41,185 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 20:10:41,189 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 20:10:41,189 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:10:48,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-01-13 20:14:29,696 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 20:14:30,032 - root - INFO - Attempting to load buildings data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 20:14:30,035 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 20:14:30,036 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 20:14:30,037 - root - INFO - Attempting to load financial data from: c:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 20:14:30,041 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 20:14:30,041 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 20:14:42,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:18:30,590 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:18:31,069 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:18:31,088 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 21:18:31,088 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 21:18:31,089 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:18:31,110 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:18:31,111 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:18:45,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:20:39,622 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:20:39,989 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:20:39,992 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 21:20:39,992 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 21:20:39,993 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:20:39,998 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:20:39,998 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:20:57,058 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:22:02,774 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:22:03,103 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:22:03,106 - root - INFO - Successfully loaded buildings data. Shape: (43, 16)
+2025-01-13 21:22:03,106 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Financial Data', 'Total Operating Expense (2024)']
+2025-01-13 21:22:03,107 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:22:03,111 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:22:03,111 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:22:17,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:24:20,340 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:24:20,681 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:24:20,683 - root - INFO - Successfully loaded buildings data. Shape: (43, 15)
+2025-01-13 21:24:20,684 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Total Operating Expense (2024)']
+2025-01-13 21:24:20,685 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:24:20,689 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:24:20,689 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:24:30,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:24:36,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:25:22,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:25:41,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:25:49,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:26:49,107 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:26:49,463 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:26:49,466 - root - INFO - Successfully loaded buildings data. Shape: (43, 15)
+2025-01-13 21:26:49,466 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Total Operating Expense (2024)']
+2025-01-13 21:26:49,468 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:26:49,472 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:26:49,472 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:27:02,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:27:05,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:27:51,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:28:12,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:28:15,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:28:37,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:28:53,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:28:56,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:29:06,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:29:06,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:29:06,256 - openai._base_client - INFO - Retrying request to /chat/completions in 3.396000 seconds
+2025-01-13 21:29:12,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:29:17,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:29:17,912 - openai._base_client - INFO - Retrying request to /chat/completions in 8.970000 seconds
+2025-01-13 21:29:31,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:29:31,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:29:31,712 - openai._base_client - INFO - Retrying request to /chat/completions in 13.680000 seconds
+2025-01-13 21:29:47,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:29:52,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:29:52,313 - openai._base_client - INFO - Retrying request to /chat/completions in 10.176000 seconds
+2025-01-13 21:30:18,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:30:18,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:30:18,698 - openai._base_client - INFO - Retrying request to /chat/completions in 4.692000 seconds
+2025-01-13 21:30:26,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:33:55,013 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:33:55,391 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:33:55,395 - root - INFO - Successfully loaded buildings data. Shape: (43, 15)
+2025-01-13 21:33:55,395 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Total Operating Expense (2024)']
+2025-01-13 21:33:55,395 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:33:55,400 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:33:55,400 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:34:17,982 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:34:21,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:34:29,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:34:33,683 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:34:50,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:34:50,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:34:50,373 - openai._base_client - INFO - Retrying request to /chat/completions in 6.018000 seconds
+2025-01-13 21:35:00,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:35:04,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:35:04,149 - openai._base_client - INFO - Retrying request to /chat/completions in 9.534000 seconds
+2025-01-13 21:35:18,586 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:35:18,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:35:18,766 - openai._base_client - INFO - Retrying request to /chat/completions in 13.038000 seconds
+2025-01-13 21:35:39,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:35:55,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:35:55,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:35:55,560 - openai._base_client - INFO - Retrying request to /chat/completions in 12.588000 seconds
+2025-01-13 21:36:12,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:36:22,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:36:22,678 - openai._base_client - INFO - Retrying request to /chat/completions in 3.096000 seconds
+2025-01-13 21:36:36,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:36:36,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:36:36,468 - openai._base_client - INFO - Retrying request to /chat/completions in 8.442000 seconds
+2025-01-13 21:36:53,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:37:16,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:37:17,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:37:17,163 - openai._base_client - INFO - Retrying request to /chat/completions in 4.242000 seconds
+2025-01-13 21:37:23,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:37:30,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:37:30,574 - openai._base_client - INFO - Retrying request to /chat/completions in 7.823000 seconds
+2025-01-13 21:37:46,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:37:46,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:37:46,861 - openai._base_client - INFO - Retrying request to /chat/completions in 9.714000 seconds
+2025-01-13 21:37:59,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:38:23,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:38:23,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:38:23,924 - openai._base_client - INFO - Retrying request to /chat/completions in 8.886000 seconds
+2025-01-13 21:38:35,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:40:04,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:40:07,862 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:53:05,417 - src.modules - INFO - Real Estate Modules Package Initialized
+2025-01-13 21:53:05,795 - root - INFO - Attempting to load buildings data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Buildings.csv
+2025-01-13 21:53:05,798 - root - INFO - Successfully loaded buildings data. Shape: (43, 15)
+2025-01-13 21:53:05,798 - root - INFO - Columns: ['Building ID', 'Location', 'Address', 'Country', 'Region', 'Size', 'Floors', 'Purpose', 'Ownership', 'Year Built', 'Market Rate ($/sqft)', 'Employee Capacity', 'Energy Target (kWh/sqft/yr)', 'LEED Certified', 'Total Operating Expense (2024)']
+2025-01-13 21:53:05,799 - root - INFO - Attempting to load financial data from: C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\data\Financial_Data.csv
+2025-01-13 21:53:05,803 - root - INFO - Successfully loaded financial data. Shape: (2623, 14)
+2025-01-13 21:53:05,803 - root - INFO - Columns: ['Record Id', 'Building ID', 'Date', 'Lease Cost (USD)', 'Total Operating Expense (USD)', 'Energy Costs (USD)', 'Utilities Costs (USD)', 'Maintenance Costs (USD)', 'Catering Costs (USD)', 'Cleaning Costs (USD)', 'Security Costs (USD)', 'Insurance Costs (USD)', 'Waste Disposal Costs (USD)', 'Other Costs (USD)']
+2025-01-13 21:53:27,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:53:31,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:54:37,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:54:55,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:00,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:12,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:22,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:36,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:50,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:55:50,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:55:50,181 - openai._base_client - INFO - Retrying request to /chat/completions in 10.140000 seconds
+2025-01-13 21:56:02,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:56:05,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:56:05,960 - openai._base_client - INFO - Retrying request to /chat/completions in 11.526000 seconds
+2025-01-13 21:56:25,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:56:25,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:56:25,984 - openai._base_client - INFO - Retrying request to /chat/completions in 11.130000 seconds
+2025-01-13 21:56:39,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:56:52,648 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:56:52,649 - openai._base_client - INFO - Retrying request to /chat/completions in 1.548000 seconds
+2025-01-13 21:56:58,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:56:58,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 21:56:58,398 - openai._base_client - INFO - Retrying request to /chat/completions in 14.292000 seconds
+2025-01-13 21:57:13,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:58:22,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:58:24,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:58:33,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 21:58:35,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:14:27,489 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:14:27,490 - src.query_processor - INFO - Parsing query: how many buildings do we have in new york?
+
+2025-01-13 23:14:27,490 - src.query_processor - ERROR - Could not process the query.
+2025-01-13 23:14:27,490 - src.query_processor - ERROR - Error in structured query: Could not process the query.
+2025-01-13 23:18:35,274 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:18:35,275 - src.query_processor - INFO - Parsing query: how many buildings do we have in new york?
+
+2025-01-13 23:18:35,275 - src.query_processor - ERROR - Could not process the query.
+2025-01-13 23:18:35,275 - src.query_processor - ERROR - Error in structured query: Could not process the query.
+2025-01-13 23:20:02,477 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:20:02,478 - src.query_processor - INFO - Parsing query: how many buildings do we have in new york?
+
+2025-01-13 23:20:02,478 - src.query_processor - ERROR - Could not process the query.
+2025-01-13 23:20:02,478 - src.query_processor - ERROR - Error in structured query: Could not process the query.
+2025-01-13 23:21:03,795 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:21:03,796 - src.query_processor - INFO - Analyzing query: how many buildings do we have in new york?
+
+2025-01-13 23:21:03,796 - src.query_processor - INFO - Filtering buildings by location: how
+2025-01-13 23:23:01,361 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:23:01,361 - src.query_processor - INFO - Analyzing query: how many buildings do we have in new york?
+
+2025-01-13 23:23:01,362 - src.query_processor - INFO - Filtering buildings by location: how
+2025-01-13 23:28:25,686 - src.query_processor - INFO - Processing query: How many buildings do we have in New York?
+
+2025-01-13 23:28:25,689 - src.query_processor - INFO - Analyzing query: How many buildings do we have in New York?
+
+2025-01-13 23:28:28,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:28:28,716 - src.query_processor - INFO - Generated query structure: {
+    "operation": "count",
+    "dataset": "buildings",
+    "filters": {"Location": "New York"},
+    "metrics": ["count"],
+    "grouping": []
+}
+2025-01-13 23:28:29,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:38:24,531 - src.agent.data_aware - INFO - DataAwareAgent initialized
+2025-01-13 23:38:24,532 - src.agent.data_aware - INFO - Loading data from data/Buildings.csv and data/Financial_Data.csv
+2025-01-13 23:38:24,539 - src.agent.data_aware - INFO - Data loaded successfully: {'buildings_loaded': True, 'financial_loaded': True, 'building_count': 43, 'financial_records': 2623}
+2025-01-13 23:38:38,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:38:39,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 23:38:39,248 - openai._base_client - INFO - Retrying request to /chat/completions in 0.412806 seconds
+2025-01-13 23:38:40,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 23:38:40,082 - openai._base_client - INFO - Retrying request to /chat/completions in 0.908751 seconds
+2025-01-13 23:38:41,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-13 23:40:15,625 - src.agent.data_aware - INFO - DataAwareAgent initialized
+2025-01-13 23:40:15,626 - src.agent.data_aware - INFO - Loading data from data/Buildings.csv and data/Financial_Data.csv
+2025-01-13 23:40:15,632 - src.agent.data_aware - INFO - Data loaded successfully: {'buildings_loaded': True, 'financial_loaded': True, 'building_count': 43, 'financial_records': 2623}
+2025-01-13 23:40:48,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:40:48,624 - src.agent.data_aware - ERROR - Error processing query: Expecting value: line 1 column 1 (char 0)
+2025-01-13 23:40:58,442 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:40:58,444 - src.agent.data_aware - ERROR - Error processing query: Expecting value: line 1 column 1 (char 0)
+2025-01-13 23:41:05,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:41:05,291 - src.agent.data_aware - ERROR - Error processing query: Expecting value: line 1 column 1 (char 0)
+2025-01-13 23:41:15,448 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:41:15,449 - src.agent.data_aware - ERROR - Error processing query: Expecting value: line 1 column 1 (char 0)
+2025-01-13 23:43:42,296 - src.agent.data_aware - INFO - DataAwareAgent initialized
+2025-01-13 23:44:00,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:44:00,898 - src.agent.data_aware - ERROR - Query processing error: 'DataAwareAgent' object has no attribute '_execute_complex_query'
+2025-01-13 23:44:22,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:44:22,593 - src.agent.data_aware - ERROR - Query processing error: 'DataAwareAgent' object has no attribute '_execute_complex_query'
+2025-01-13 23:44:50,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:44:50,284 - src.agent.data_aware - ERROR - Query processing error: 'DataAwareAgent' object has no attribute '_execute_complex_query'
+2025-01-13 23:45:06,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-13 23:45:06,055 - src.agent.data_aware - ERROR - Query processing error: 'DataAwareAgent' object has no attribute '_execute_complex_query'
