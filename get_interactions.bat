@@ -6,15 +6,9 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-REM Activate the virtual environment if needed
-if exist venv (
-    echo Activating virtual environment...
-    call venv\Scripts\activate
-)
 
-REM Run Streamlit application
-streamlit run src\utils\analyze_interactions.py
 
+python src\utils\analyze_interactions.py
 
 REM Wait for user input before closing
 pause

@@ -73,6 +73,7 @@
     <Content Include="requirements.txt" />
     <Content Include="run.bat" />
     <Content Include="setup.bat" />
+    <Content Include="version.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
