@@ -1,0 +1,291 @@
+2025-01-14 11:23:44,677 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:23:44,680 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:23:45,062 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:23:45,074 - INFO - Initializing context with datasets
+2025-01-14 11:23:45,074 - INFO - Context length: 776979 characters
+2025-01-14 11:23:46,175 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_nKo9KkQuhgBpI0WCrfeUAGde/messages "HTTP/1.1 400 Bad Request"
+2025-01-14 11:23:46,176 - ERROR - Error initializing context: Error code: 400 - {'error': {'message': "Invalid 'content': string too long. Expected a string with maximum length 256000, but got a string with length 777010 instead.", 'type': 'invalid_request_error', 'param': 'content', 'code': 'string_above_max_length'}}
+2025-01-14 11:23:46,195 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\src\chat_gpt\app_cg.py", line 154, in initialize_context
+    client.beta.threads.messages.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        thread_id=thread_id,
+        ^^^^^^^^^^^^^^^^^^^^
+        role="user",
+        ^^^^^^^^^^^^
+        content=f"COMPREHENSIVE DATASET CONTEXT:\n{full_context}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\resources\beta\threads\messages.py", line 99, in create
+    return self._post(
+           ~~~~~~~~~~^
+        f"/threads/{thread_id}/messages",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+        cast_to=Message,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 1283, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 960, in request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        cast_to=cast_to,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        retries_taken=retries_taken,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 1064, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid 'content': string too long. Expected a string with maximum length 256000, but got a string with length 777010 instead.", 'type': 'invalid_request_error', 'param': 'content', 'code': 'string_above_max_length'}}
+
+2025-01-14 11:39:05,945 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:39:05,948 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:39:06,399 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:39:06,423 - ERROR - Error initializing context: Object of type int64 is not JSON serializable
+2025-01-14 11:39:06,436 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\src\chat_gpt\app_cg.py", line 188, in initialize_context
+    context_json = json.dumps(full_context, indent=2)
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+
+2025-01-14 11:41:25,831 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:41:25,835 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:41:26,264 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:41:26,279 - INFO - Initializing context with datasets
+2025-01-14 11:41:26,279 - INFO - Context length: 241693 characters
+2025-01-14 11:41:27,585 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_uz3yCBQszjFzIi8maGHN6bae/messages "HTTP/1.1 200 OK"
+2025-01-14 11:41:42,693 - ERROR - Query submission error: name 'process_query' is not defined
+2025-01-14 11:43:16,718 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:43:16,722 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:43:17,125 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:43:17,139 - INFO - Initializing context with datasets
+2025-01-14 11:43:17,139 - INFO - Context length: 241693 characters
+2025-01-14 11:43:18,452 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/messages "HTTP/1.1 200 OK"
+2025-01-14 11:43:25,613 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:43:25,684 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:43:26,059 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/messages "HTTP/1.1 200 OK"
+2025-01-14 11:43:26,145 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/messages "HTTP/1.1 200 OK"
+2025-01-14 11:43:27,562 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs "HTTP/1.1 200 OK"
+2025-01-14 11:43:28,312 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:29,349 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:30,383 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:31,339 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:32,288 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:33,244 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:34,451 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_umLJhaxhU1n8zVQnod1UKAex/runs/run_7pjUb29vOhksDCMd3J3pkjrz "HTTP/1.1 200 OK"
+2025-01-14 11:43:34,454 - ERROR - Run failed: LastError(code='rate_limit_exceeded', message='Request too large for gpt-4o in organization org-sUul5EEPrmd3gwb4nY3Kli0t on tokens per min (TPM): Limit 30000, Requested 128000. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.')
+2025-01-14 11:48:21,945 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:48:21,949 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:48:22,328 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:48:22,333 - INFO - Initializing context with datasets
+2025-01-14 11:48:22,333 - INFO - Context length: 6323 characters
+2025-01-14 11:48:22,852 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/messages "HTTP/1.1 200 OK"
+2025-01-14 11:48:32,783 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:48:32,864 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:48:33,345 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/messages "HTTP/1.1 200 OK"
+2025-01-14 11:48:33,347 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/messages "HTTP/1.1 200 OK"
+2025-01-14 11:48:34,992 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs "HTTP/1.1 200 OK"
+2025-01-14 11:48:35,439 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs/run_VzTYlTy68vVzCTZdJUp4BBcH "HTTP/1.1 200 OK"
+2025-01-14 11:48:36,482 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs/run_VzTYlTy68vVzCTZdJUp4BBcH "HTTP/1.1 200 OK"
+2025-01-14 11:48:37,507 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs/run_VzTYlTy68vVzCTZdJUp4BBcH "HTTP/1.1 200 OK"
+2025-01-14 11:48:38,723 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs/run_VzTYlTy68vVzCTZdJUp4BBcH "HTTP/1.1 200 OK"
+2025-01-14 11:48:39,805 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/runs/run_VzTYlTy68vVzCTZdJUp4BBcH "HTTP/1.1 200 OK"
+2025-01-14 11:48:40,192 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_bmtFP6IQRrrb07DcNfqSoEwe/messages "HTTP/1.1 200 OK"
+2025-01-14 11:48:40,195 - INFO - Query response: To determine the oldest building, we need to refer to the "Year Built" column in the Buildings.csv dataset. According to the dataset summary, the minimum year in the "Year Built" column is 2005. Unfortunately, the summary does not provide the specific Building ID or details of the building constructed in this year. 
+
+To identify the specific oldest building, you would need the detailed data from the Buildings.csv file. If you have access to it, you can look for the building with the "Year Built" of 2005.
+2025-01-14 11:52:38,119 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:52:38,122 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:52:38,905 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:52:39,527 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_r44kX8W94KwlMVjDMxO7cOQa/messages "HTTP/1.1 200 OK"
+2025-01-14 11:52:40,697 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_r44kX8W94KwlMVjDMxO7cOQa/messages "HTTP/1.1 400 Bad Request"
+2025-01-14 11:52:40,699 - ERROR - Error initializing context: Error code: 400 - {'error': {'message': "Invalid 'content': string too long. Expected a string with maximum length 256000, but got a string with length 1063455 instead.", 'type': 'invalid_request_error', 'param': 'content', 'code': 'string_above_max_length'}}
+2025-01-14 11:52:40,702 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\src\chat_gpt\app_cg.py", line 129, in initialize_context
+    client.beta.threads.messages.create(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        thread_id=thread_id,
+        ^^^^^^^^^^^^^^^^^^^^
+        role=context['role'],
+        ^^^^^^^^^^^^^^^^^^^^^
+        content=context['content']
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\resources\beta\threads\messages.py", line 99, in create
+    return self._post(
+           ~~~~~~~~~~^
+        f"/threads/{thread_id}/messages",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+        cast_to=Message,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 1283, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 960, in request
+    return self._request(
+           ~~~~~~~~~~~~~^
+        cast_to=cast_to,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        retries_taken=retries_taken,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\venv\Lib\site-packages\openai\_base_client.py", line 1064, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid 'content': string too long. Expected a string with maximum length 256000, but got a string with length 1063455 instead.", 'type': 'invalid_request_error', 'param': 'content', 'code': 'string_above_max_length'}}
+
+2025-01-14 11:56:28,828 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 11:56:28,831 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 11:56:29,170 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 11:56:29,172 - ERROR - Error preparing dataset contexts: Object of type int64 is not JSON serializable
+2025-01-14 11:56:29,173 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC\Synoptik\BOD - Documents\Product\Demo\SynoptikGPT\src\chat_gpt\app_cg.py", line 129, in prepare_dataset_context
+    "content": f"DATASET CONTEXT FOR {filename}:\n{json.dumps(dataset_context, indent=2)}"
+                                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "c:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+
+2025-01-14 11:56:29,173 - INFO - Initialized context with 0 dataset messages
+2025-01-14 11:56:53,373 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:56:53,451 - INFO - Processing query: What is the oldest building?
+2025-01-14 11:56:53,838 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/messages "HTTP/1.1 200 OK"
+2025-01-14 11:56:53,897 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/messages "HTTP/1.1 200 OK"
+2025-01-14 11:56:55,163 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/runs "HTTP/1.1 200 OK"
+2025-01-14 11:56:55,654 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/runs/run_84O6P5F0FRvLbizkRi6DXusD "HTTP/1.1 200 OK"
+2025-01-14 11:56:57,124 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/runs/run_84O6P5F0FRvLbizkRi6DXusD "HTTP/1.1 200 OK"
+2025-01-14 11:56:58,627 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/runs/run_84O6P5F0FRvLbizkRi6DXusD "HTTP/1.1 200 OK"
+2025-01-14 11:56:59,015 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_U658bRDExuINnjhnMINDEK46/messages "HTTP/1.1 200 OK"
+2025-01-14 11:56:59,016 - INFO - Query Log: {
+  "query": "What is the oldest building?",
+  "timestamp": 1736848613.4522285,
+  "answer": "To identify the oldest building, please provide the dataset containing details of the buildings, including their construction or completion dates. Once I have the dataset, I can analyze it to determine which building was constructed first and provide you with its details."
+}
+2025-01-14 12:00:48,470 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 12:00:48,473 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 12:00:48,900 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 12:00:48,904 - INFO - Prepared dataset context:
+DATASET INFORMATION:
+
+--- Buildings.csv ---
+Total Records: 43
+Columns: Building ID, City, Address, Country, Region, Size, Floors, Purpose, Ownership, Year Built, Market Rate ($/sqft), Employee Capacity, Energy Target (kWh/sqft/yr), LEED Certified, Total Operating Expense (2024)
+Year Built Range: 2005 - 2022
+Oldest Building Details:
+Building ID: B013
+Location: N/A
+Year Built: 2005
+
+--- Financial_Data.csv ---
+Total Records: 2623
+Columns: Record Id, Building ID, Date, Lease Cost (USD), Total Operating Expense (USD), Energy Costs (USD), Utilities Costs (USD), Maintenance Costs (USD), Catering Costs (USD), Cleaning Costs (USD), Security Costs (USD), Insurance Costs (USD), Waste Disposal Costs (USD), Other Costs (USD)
+2025-01-14 12:00:49,361 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_sREPdvUYixa4JcdynCqRSSLB/messages "HTTP/1.1 200 OK"
+2025-01-14 12:00:49,376 - INFO - Context initialized with comprehensive dataset information
+2025-01-14 12:01:03,698 - ERROR - Query submission error: name 'process_query' is not defined
+2025-01-14 12:01:03,778 - ERROR - Query submission error: name 'process_query' is not defined
+2025-01-14 12:02:42,253 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 12:02:42,256 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 12:02:42,686 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 12:02:42,688 - INFO - Prepared dataset context:
+DATASET INFORMATION:
+
+--- Buildings.csv ---
+Total Records: 43
+Columns: Building ID, City, Address, Country, Region, Size, Floors, Purpose, Ownership, Year Built, Market Rate ($/sqft), Employee Capacity, Energy Target (kWh/sqft/yr), LEED Certified, Total Operating Expense (2024)
+Year Built Range: 2005 - 2022
+Oldest Building Details:
+Building ID: B013
+Location: N/A
+Year Built: 2005
+
+--- Financial_Data.csv ---
+Total Records: 2623
+Columns: Record Id, Building ID, Date, Lease Cost (USD), Total Operating Expense (USD), Energy Costs (USD), Utilities Costs (USD), Maintenance Costs (USD), Catering Costs (USD), Cleaning Costs (USD), Security Costs (USD), Insurance Costs (USD), Waste Disposal Costs (USD), Other Costs (USD)
+2025-01-14 12:02:43,213 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:02:43,216 - INFO - Context initialized with comprehensive dataset information
+2025-01-14 12:02:51,118 - INFO - Processing query: What is the oldest building?
+2025-01-14 12:02:51,210 - INFO - Processing query: What is the oldest building?
+2025-01-14 12:02:51,574 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:02:51,682 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:02:54,514 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs "HTTP/1.1 200 OK"
+2025-01-14 12:02:55,197 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_cR4ECLBpUq7Uf5tA5kSoVcSf "HTTP/1.1 200 OK"
+2025-01-14 12:02:56,708 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_cR4ECLBpUq7Uf5tA5kSoVcSf "HTTP/1.1 200 OK"
+2025-01-14 12:02:57,153 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:02:57,155 - INFO - Query Log: {
+  "query": "What is the oldest building?",
+  "timestamp": 1736848971.210468,
+  "answer": "The oldest building, as per the Buildings.csv dataset, is:\n\n- **Building ID:** B013\n- **Year Built:** 2005\n\nUnfortunately, the specific location of this building is not available in the dataset context provided."
+}
+2025-01-14 12:03:29,105 - INFO - Processing query: How many buildings do we have in New York?
+2025-01-14 12:03:29,203 - INFO - Processing query: How many buildings do we have in New York?
+2025-01-14 12:03:29,628 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:03:29,719 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:03:31,038 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs "HTTP/1.1 200 OK"
+2025-01-14 12:03:31,505 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:32,977 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:34,446 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:35,927 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:37,397 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:42,379 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:43,860 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:45,448 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:47,043 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:48,528 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:50,009 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:51,454 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:52,982 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/runs/run_VrsHXxnlrU9b5rLkVxOHjXsD "HTTP/1.1 200 OK"
+2025-01-14 12:03:53,389 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_jlfhfdlFl1nLtIeKzO5f5RbK/messages "HTTP/1.1 200 OK"
+2025-01-14 12:03:53,391 - INFO - Query Log: {
+  "query": "How many buildings do we have in New York?",
+  "timestamp": 1736849009.204263,
+  "answer": "To determine the number of buildings in New York, I would typically filter the Buildings.csv dataset by the \"City\" column. However, specific information regarding the number of buildings in New York is not provided in the dataset context shared. If you have access to the detailed Buildings.csv data, you can perform a count of entries where the \"City\" column is \"New York\". Alternatively, if provided, I can assist you with that specific data."
+}
+2025-01-14 12:09:12,730 - INFO - Loaded dataset: Buildings.csv - 43 records
+2025-01-14 12:09:12,733 - INFO - Loaded dataset: Financial_Data.csv - 2623 records
+2025-01-14 12:09:13,138 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-01-14 12:09:13,616 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:14,086 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:14,619 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:14,620 - INFO - Initialized context with 3 dataset messages
+2025-01-14 12:09:27,047 - INFO - Processing query: How many buildings do we have in New York?
+2025-01-14 12:09:27,131 - INFO - Processing query: How many buildings do we have in New York?
+2025-01-14 12:09:27,528 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:27,591 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:30,229 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/runs "HTTP/1.1 200 OK"
+2025-01-14 12:09:30,711 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/runs/run_T7VGARt9Psf2iKv6asvvKcgW "HTTP/1.1 200 OK"
+2025-01-14 12:09:32,294 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/runs/run_T7VGARt9Psf2iKv6asvvKcgW "HTTP/1.1 200 OK"
+2025-01-14 12:09:33,807 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/runs/run_T7VGARt9Psf2iKv6asvvKcgW "HTTP/1.1 200 OK"
+2025-01-14 12:09:34,249 - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_VeRDfuz9RDBge9DHOXl6cBtw/messages "HTTP/1.1 200 OK"
+2025-01-14 12:09:34,251 - INFO - Query Log: {
+  "query": "How many buildings do we have in New York?",
+  "timestamp": 1736849367.1316683,
+  "answer": "To determine the number of buildings located in New York, we'll filter the Buildings dataset by the 'City' column for entries with the value \"New York\".\n\nBased on the analysis of the dataset, **there are 5 buildings located in New York**."
+}

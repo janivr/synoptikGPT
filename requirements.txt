@@ -1,0 +1,8 @@
+streamlit
+pandas
+openai
+python-dotenv
+pytest
+pytest-cov
+numpy
+airtable

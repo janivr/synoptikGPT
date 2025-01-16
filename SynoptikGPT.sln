@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SynoptikGPT", "SynoptikGPT.pyproj", "{D09454D1-17DC-4798-B1B7-0B146FB7E8F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09454D1-17DC-4798-B1B7-0B146FB7E8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09454D1-17DC-4798-B1B7-0B146FB7E8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7365BDE2-0E7F-448E-A844-CA41F044BF48}
+	EndGlobalSection
+EndGlobal
