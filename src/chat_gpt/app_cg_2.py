@@ -6,6 +6,8 @@ import time
 import hashlib
 from openai import OpenAI
 from dotenv import load_dotenv
+import sqlite3
+from datetime import datetime
 
 # Load environment variables
 load_dotenv()
@@ -26,17 +28,53 @@ console_handler.setFormatter(console_formatter)
 logging.getLogger().addHandler(console_handler)
 
 # OpenAI Initialization
+#openai_api_key = st.secrets["OPENAI_API_KEY"]
 openai_api_key = os.getenv("OPENAI_API_KEY")
-print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
-print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
-print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
-print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
 #openai_api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
 #openai_api_key = st.secrets["OPENAI_API_KEY"]
-print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
+#print("Loaded API Key:", st.secrets["OPENAI_API_KEY"])
+
 if not openai_api_key:
     raise ValueError("OpenAI API key is missing from environment variables.")
 client = OpenAI(api_key=openai_api_key)
+
+def init_db():
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS interactions
+                 (id INTEGER PRIMARY KEY AUTOINCREMENT,
+                  timestamp TEXT,
+                  user_input TEXT,
+                  assistant_response TEXT)''')
+    conn.commit()
+    conn.close()
+
+def save_interaction(user_input, assistant_response):
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    timestamp = datetime.now().isoformat()
+    c.execute("INSERT INTO interactions (timestamp, user_input, assistant_response) VALUES (?, ?, ?)",
+              (timestamp, user_input, assistant_response))
+    conn.commit()
+    conn.close()
+    
+def get_interactions(limit=100):
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM interactions ORDER BY timestamp DESC LIMIT ?", (limit,))
+    interactions = c.fetchall()
+    conn.close()
+    return interactions
+
+# Retrieve interactions by a filter (e.g., by date)
+def get_interactions_by_date(date):
+    # USAGE: date = "2025-01-16"  
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    c.execute('SELECT * FROM interactions WHERE timestamp LIKE ?', (f'{date}%',))
+    rows = c.fetchall()
+    conn.close()
+    return rows
 
 # Metadata Descriptions
 buildings_metadata = {
@@ -165,6 +203,10 @@ def create_assistant_with_uploaded_files(file_ids, metadata):
 
 # Chat Interface for Users
 def chat_with_assistant(assistant_id):
+    
+    # Initialize the database
+    init_db()  
+    
     st.header("Chat with the Real Estate Assistant")
     if "thread_id" not in st.session_state:
         thread = client.beta.threads.create()
@@ -214,6 +256,10 @@ def process_input(user_input, assistant_id):
             response = cached_analysis(user_input, st.session_state["thread_id"], assistant_id)
             st.session_state.messages.append({"role": "user", "content": user_input})
             st.session_state.messages.append({"role": "assistant", "content": response})
+            
+            # Save the interaction to the database
+            save_interaction(user_input, response)
+            
         except Exception as e:
             logging.error(f"Error during conversation: {e}")
             st.error(f"Error during conversation: {e}")
@@ -221,7 +267,38 @@ def process_input(user_input, assistant_id):
     # Use Streamlit's rerun method to update the chat history
     st.rerun()
 
+def admin_dashboard():
+    st.title("Admin Dashboard")
 
+    # Get date range for analysis
+    start_date = st.date_input("Start Date")
+    end_date = st.date_input("End Date")
+
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    
+    # Count total interactions
+    c.execute("SELECT COUNT(*) FROM interactions WHERE date(timestamp) BETWEEN ? AND ?", 
+              (start_date, end_date))
+    total_interactions = c.fetchone()[0]
+    st.write(f"Total Interactions: {total_interactions}")
+
+    # Most common user queries (example)
+    c.execute("""
+        SELECT user_input, COUNT(*) as count 
+        FROM interactions 
+        WHERE date(timestamp) BETWEEN ? AND ?
+        GROUP BY user_input 
+        ORDER BY count DESC 
+        LIMIT 5
+    """, (start_date, end_date))
+    common_queries = c.fetchall()
+    
+    st.subheader("Most Common User Queries")
+    for query, count in common_queries:
+        st.write(f"{query}: {count}")
+
+    conn.close()
 
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
