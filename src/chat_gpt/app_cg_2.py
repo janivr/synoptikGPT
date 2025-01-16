@@ -359,8 +359,23 @@ if st.session_state.get("data_uploaded"):
 # Chat Interface
 if "assistant_id" in st.session_state:
     chat_with_assistant(st.session_state["assistant_id"])
-    
-st.title("Admin Dashboard")
+
+# Sidebar Admin Login
+with st.sidebar:
+    st.subheader("Admin Login")
+    if "admin_token" not in st.session_state:
+        st.session_state["admin_token"] = ""
+
+    admin_token_input = st.text_input("Enter admin token", type="password")
+    if st.button("Authenticate"):
+        st.session_state["admin_token"] = admin_token_input
+        if authenticate_admin():
+            st.success("Authenticated")
+        else:
+            st.error("Invalid token. Access denied.")
+            
+
 if authenticate_admin():
+    st.title("Admin Dashboard")
     download_database()
     
