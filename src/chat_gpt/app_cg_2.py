@@ -300,6 +300,30 @@ def admin_dashboard():
 
     conn.close()
 
+def authenticate_admin():
+    token = st.text_input("Enter admin token", type="password")
+    if token == st.secrets["admin"]["access_token"]:
+        st.success("Authentication successful!")
+        return True
+    else:
+        st.warning("Invalid token. Access denied.")
+        return False
+
+def download_database():
+    db_path = 'user_interactions.db'
+    if os.path.exists(db_path):
+        with open(db_path, 'rb') as f:
+            st.download_button(
+                label="Download Database",
+                data=f,
+                file_name='user_interactions.db',
+                mime='application/octet-stream'
+            )
+    else:
+        st.warning("Database file not found.")
+
+
+    
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
 st.title("Real Estate Assistant AI")
@@ -328,3 +352,8 @@ if st.session_state.get("data_uploaded"):
 # Chat Interface
 if "assistant_id" in st.session_state:
     chat_with_assistant(st.session_state["assistant_id"])
+    
+st.title("Admin Dashboard")
+if authenticate_admin():
+    download_database()
+    
