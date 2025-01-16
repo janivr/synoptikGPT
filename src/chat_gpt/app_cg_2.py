@@ -304,7 +304,7 @@ def admin_dashboard():
 
     conn.close()
 
-def authenticate_admin():
+def authenticate_admin_OLD_DELETE():
     token = st.text_input("Enter admin token", type="password")
     if token == st.secrets["admin"]["access_token"]:
         st.success("Authentication successful!")
@@ -312,6 +312,27 @@ def authenticate_admin():
     else:
         st.warning("Invalid token. Access denied.")
         return False
+
+def authenticate_admin():
+    # Initialize the admin state if not already done
+    if "is_admin" not in st.session_state:
+        st.session_state["is_admin"] = False
+        st.session_state["admin_key_input"] = ""
+
+    if not st.session_state["is_admin"]:
+        # Display the input and button if not authenticated
+        admin_key_input = st.text_input("Enter admin token", type="password", key="admin_key_input")
+        if st.button("Submit Admin Token"):
+            if admin_key_input == st.secrets["admin"]["access_token"]:  # Verify token
+                st.session_state["is_admin"] = True
+                st.success("Authentication successful!")
+            else:
+                st.error("Invalid token. Access denied.")
+    else:
+        st.success("You are logged in as Admin.")  # Show success message after authentication
+
+    return st.session_state["is_admin"]
+
 
 def download_database():
     db_path = 'user_interactions.db'
@@ -362,20 +383,15 @@ if "assistant_id" in st.session_state:
 
 # Sidebar Admin Login
 with st.sidebar:
-    st.subheader("Admin Login")
-    if "admin_token" not in st.session_state:
-        st.session_state["admin_token"] = ""
-
-    admin_token_input = st.text_input("Enter admin token", type="password")
-    if st.button("Authenticate"):
-        st.session_state["admin_token"] = admin_token_input
-        if authenticate_admin():
-            st.success("Authenticated")
-        else:
-            st.error("Invalid token. Access denied.")
+    st.title("Admin Panel")
+    if authenticate_admin():
+        st.success("Admin authenticated")
+        # Admin features in the sidebar (e.g., download DB, version control)
+        if st.button("Download Database"):
+            download_database()
+    else:
+        st.warning("Admin access denied. Please authenticate.")
             
 
-if authenticate_admin():
-    st.title("Admin Dashboard")
-    download_database()
+
     
