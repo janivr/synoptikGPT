@@ -12,4 +12,4 @@ app_log.log
 .streamlit/
 *.toml
 Buildings.xlsx
-
+user_interactions.db
