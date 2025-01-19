@@ -238,7 +238,7 @@ with query_container:
 with st.sidebar:
     st.title("Analytics")
     success_rate = calculate_success_rate()
-    st.metric("Query Success Rate", f"{success_rate:.2f}%")
+    st.markdown(f"### Query Success Rate: {success_rate:.2f}%")
 
 # Sidebar Admin Login
 with st.sidebar:

@@ -57,3 +57,5 @@ if /i "%user_input_push%"=="yes" (
 echo -------------------------------
 echo All done!
 echo -------------------------------
+
+pause

@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".env" />
+    <Content Include=".streamlit\config.toml" />
     <Content Include="data\Buildings.csv" />
     <Content Include="data\Financial_Data.csv" />
     <Content Include="data\floors_occupancy.csv" />
@@ -88,7 +89,7 @@
     <Folder Include="data\" />
     <Folder Include="logs\" />
     <Folder Include="docs\" />
-    <Folder Include="NewFolder1\" />
+    <Folder Include=".streamlit\" />
     <Folder Include="src\cli\" />
     <Folder Include="src\data_models\" />
     <Folder Include="src\agent\" />
