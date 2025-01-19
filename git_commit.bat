@@ -38,6 +38,11 @@ if /i "%user_input_commit%"=="yes" (
 )
 
 echo.
+echo Please enter your commit message:
+set /p COMMIT_MSG=
+git commit -m "%COMMIT_MSG%"
+
+echo.
 
 :confirm_push
 set /p user_input_push=Do you want to push the changes to the remote repository? (yes/no): 
