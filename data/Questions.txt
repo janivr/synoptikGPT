@@ -1,0 +1,129 @@
+Which building is the most expensive one?
+Which building has the highest capacity?
+Which building has the lowest capacity?
+Where is the highest energy target?
+How many buildings are LEED certified?
+How many buildings do we have in New York?
+How many buildings do we have in Frankfurt?
+How many buildings do we have in Chicago?
+How many buildings do we have in Paris?
+How many buildings are in APAC, EMEA, and NA?
+How many Retail buildings do we have in NA?
+How many R&D buildings we have worldwide?
+What is the oldest building?
+What is the newest building?
+What is the largest building?
+What is the smallest building?
+How many buildings are in lease vs. owned?
+What was the total energy cost of B002 in 2023?
+What were the cleaning costs for building B004 in March 2023?
+Compare the energy costs of B002 between January 2023 and February 2023.
+How did B001's cleaning costs change from March 2023 to April 2023?
+Compare the total operating expenses of B001 and B002 for 2023.
+Which building had the highest energy costs in January 2023?
+How did B001's energy costs trend throughout 2023?
+Show me the monthly utility costs for B002 in 2023.
+For our New York buildings, what were their total energy costs in March 2023?
+Which LEED-certified building had the highest cleaning costs in 2023?
+How many buildings were built in 2022?
+What building was built in 2018?
+How many buildings are less than 3 years old?
+How many buildings are more than 15 years old?
+In which year did we build the most buildings?
+When was the building in New York built?
+What is the average energy cost per building for 2023?
+What is the total operating expense for all buildings in 2024?
+Which building in EMEA had the highest lease costs in 2022?
+Please rank the buildings in Frankfurt by its market rate descending
+How many buildings in APAC are larger than 200,000 sqft?
+What are the average catering costs in 2024 in NA buildings vs. EMEA buildings?
+What is our space utilization rate across different buildings and how does it vary by region?
+Which buildings have the lowest occupancy rates relative to their maximum capacity?
+Is there a correlation between building age and occupancy rates?
+How does occupancy vary by floor? Are certain floors consistently underutilized?
+Should we consider consolidating office space in certain locations based on occupancy patterns?
+What's the correlation between market rates and actual space utilization?
+What's our cost per occupied seat across different buildings?
+How do operating costs correlate with building occupancy levels?
+Are our LEED-certified buildings delivering the expected cost savings?
+Which buildings have the highest operating costs per square foot?
+Is there a relationship between occupancy patterns and utility costs?
+Could we reduce operating hours in certain buildings based on occupancy patterns?
+How does actual occupancy compare to employee capacity across different locations?
+Are there patterns in peak office usage that could inform our hybrid work policies?
+Which buildings and floors show the most consistent occupancy for team planning?
+How does occupancy vary during different times of day across locations?
+Can we optimize our workspace allocation based on actual usage patterns?
+Should we adjust our office capacity planning based on observed utilization?
+How efficiently are we using our real estate portfolio across different regions?
+Which buildings show the best balance of occupancy vs operating costs?
+Are our energy efficiency targets being met based on actual occupancy?
+How do maintenance costs correlate with building occupancy and age?
+Should we adjust building operations hours based on usage patterns?
+What's the relationship between building size, occupancy, and operational costs?
+How do occupancy patterns vary by region and could this inform our future real estate strategy?
+Is there a correlation between building characteristics (age, size, LEED status) and occupancy patterns?
+How do seasonal variations in occupancy affect our operating costs?
+Are newer buildings showing better utilization rates than older ones?
+How do catering and cleaning costs align with actual building usage?
+Should we consider repurposing certain floors or buildings based on consistent underutilization?
+
+
+Which building is the most expensive one?
+
+Which building has the highest capacity?
+
+and the lowest?
+
+
+Where is the highest energy target?
+
+How many buildings are LEED certificated?
+
+OMG, you are so wrong. Why is that?
+
+There are 2 buildings in NY:
+
+B006 and B001
+
+How many buildings are in APAC?
+
+EMEA?
+
+and in NA?
+
+
+What is the oldest building?
+
+What is the newest building?
+
+how many buildings are in lease vs. owned?
+
+What was the total energy cost of B002 in 2023?
+
+what was the cleaning costs for building b004 in 2022?
+
+What was the total energy cost of B002 in 2023?
+
+what was the cleaning costs for building b004 in 2022?
+
+what was the cleaning costs for building b004 in November 2022?
+
+what was the cleaning costs for building b004 in 01/10/2022?
+
+What was the total energy cost of B002 in 2023?
+What was the cleaning cost for B004 in March 2023?
+What were the total operating expenses for B001 in 2023?
+
+Compare the energy costs of B002 between January 2023 and February 2023
+How did B001's cleaning costs change from March 2023 to April 2023?
+
+Compare the total operating expenses of B001 and B002 for 2023
+Which building had the highest energy costs in January 2023?
+
+How did B001's energy costs trend throughout 2023?
+Show me the monthly utility costs for B002 in 2023
+
+For our New York buildings, what were their total energy costs in March 2023?
+Which LEED certified building had the highest cleaning costs in 2023?
+
