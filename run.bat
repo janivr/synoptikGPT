@@ -13,7 +13,8 @@ if exist venv (
 )
 
 REM Run Streamlit application
-streamlit run src\chat_gpt\app_cg_2.py
+REM streamlit run src\chat_gpt\app_cg_2.py
+streamlit run src\cli\streamlit_gpt.py
 
 REM Wait for user input before closing
 pause

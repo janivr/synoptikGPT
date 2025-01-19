@@ -7,3 +7,5 @@ pytest-cov
 numpy
 airtable
 matplotlib
+sqlalchemy 
+psycopg2

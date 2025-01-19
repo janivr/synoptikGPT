@@ -13,3 +13,4 @@ app_log.log
 *.toml
 Buildings.xlsx
 user_interactions.db
+floors_occupancy.xlsx

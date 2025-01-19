@@ -1,44 +1,44 @@
-﻿Building ID,City,Address,Country,Region,Size,Floors,Purpose,Ownership,Year Built,Market Rate ($/sqft),Employee Capacity,Energy Target (kWh/sqft/yr),LEED Certified,Total Operating Expense (2024)
-B005,Seattle,1201 Third Avenue,USA,NA,195000,11,Data Center,Own,2022,70,390,50,checked,743475
-B040,Singapore,10 Collyer Quay,Singapore,APAC,165000,9,Data Center,Own,2022,88,330,50,checked,854759
-B029,Barcelona,Plaça Catalunya 123,Spain,EMEA,185000,10,Retail,Own,2022,65,463,22,checked,662843
-B036,Hong Kong,8 Finance Street,China,APAC,175000,10,Data Center,Own,2021,95,350,50,checked,802730
-B007,San Francisco,101 California Street,USA,NA,380000,20,R&D,Own,2021,92,1900,20,checked,487899
-B015,Seattle,800 Fifth Avenue,USA,NA,175000,10,Data Center,Lease,2021,70,350,50,checked,748322
-B021,Madrid,Paseo de la Castellana 200,Spain,EMEA,195000,11,Data Center,Own,2021,70,390,50,checked,263237
-B025,Amsterdam,Gustav Mahlerlaan 10,Netherlands,EMEA,180000,10,Data Center,Own,2020,70,360,50,checked,272198
-B033,Singapore,10 Marina Boulevard,Singapore,APAC,365000,20,Office,Lease,2020,88,2433,16,checked,253406
-B002,San Francisco,525 Market Street,USA,NA,320000,18,R&D,Own,2020,92,1600,20,checked,785563
-B018,London,20 Fenchurch Street,UK,EMEA,425000,23,Office,Lease,2020,95,2833,16,checked,549228
-B037,Bangalore,1 Palace Road,India,APAC,345000,19,Office,Lease,2019,55,2300,16,checked,251404
-B016,Vancouver,1040 West Georgia Street,Canada,NA,395000,22,Retail,Lease,2019,65,988,22,checked,265622
-B026,London,One Canada Square,UK,EMEA,405000,22,Office,Lease,2019,95,2700,16,checked,573679
-B010,Montreal,1981 McGill College Avenue,Canada,NA,185000,10,Office,Lease,2019,60,1233,16,checked,274439
-B022,London,25 Churchill Place,UK,EMEA,385000,21,Office,Lease,2018,95,2567,16,checked,264580
-B006,New York,11 Times Square,USA,NA,450000,25,Office,Lease,2018,85,3000,16,checked,262095
-B012,San Francisco,555 Mission Street,USA,NA,290000,16,R&D,Own,2018,92,1450,20,,261046
-B041,Mumbai,Cuffe Parade,India,APAC,355000,19,Office,Lease,2018,60,2367,16,checked,538111
-B032,Paris,Tour Majunga - 6 Place de la Pyramide,France,EMEA,285000,16,R&D,Lease,2018,85,1425,20,checked,671082
-B038,Sydney,100 Barangaroo Avenue,Australia,APAC,275000,15,Mixed Use,Own,2017,82,1571,18,,842395
-B017,Montreal,1250 René-Lévesque Boulevard,Canada,NA,310000,17,Mixed Use,Own,2017,60,1771,18,,268114
-B030,Amsterdam,Claude Debussylaan 80,Netherlands,EMEA,395000,22,Office,Lease,2017,70,2633,16,checked,575161
-B024,Barcelona,Avinguda Diagonal 640,Spain,EMEA,295000,17,Retail,Lease,2017,65,738,22,checked,696366
-B001,New York,350 Fifth Avenue,USA,NA,285000,16,Office,Lease,2017,85,1900,16,checked,269254
-B034,Mumbai,G Block BKC,India,APAC,295000,16,Mixed Use,Own,2016,60,1686,18,,288266
-B011,Chicago,401 North Michigan Avenue,USA,NA,420000,23,Retail,Lease,2016,65,1050,22,checked,271204
-B020,Paris,1 Avenue des Champs-Élysées,France,EMEA,315000,18,R&D,Lease,2016,85,1575,20,checked,501343
-B042,Tokyo,5-1-5 Otemachi,Japan,APAC,285000,16,Mixed Use,Own,2015,100,1629,18,,281774
-B028,Paris,Tour First - 1 Place des Saisons,France,EMEA,305000,17,R&D,Lease,2015,85,1525,20,checked,243249
-B009,Vancouver,1055 Dunsmuir Street,Canada,NA,275000,15,Retail,Own,2015,65,688,22,checked,768540
-B027,Madrid,Calle de Alcalá 500,Spain,EMEA,275000,15,Mixed Use,Own,2014,70,1571,18,,699662
-B014,Boston,125 High Street,USA,NA,245000,14,Office,Own,2014,75,1633,16,checked,705486
-B035,Tokyo,2-4-1 Marunouchi,Japan,APAC,245000,14,R&D,Lease,2014,100,1225,20,checked,523145
-B003,Chicago,233 South Wacker Drive,USA,NA,175000,10,Mixed Use,Lease,2013,65,1000,18,,253390
-B019,Frankfurt,Mainzer Landstraße 100,Germany,EMEA,280000,16,Mixed Use,Own,2013,75,1600,18,,277719
-B039,Delhi,DLF Cyber City Phase 3,India,APAC,235000,13,Retail,Lease,2013,58,588,22,checked,270254
-B043,Sydney,126 Phillip Street,Australia,APAC,225000,12,R&D,Lease,2012,82,1125,20,checked,269165
-B031,Frankfurt,Taunusanlage 12,Germany,EMEA,255000,14,Mixed Use,Own,2012,75,1457,18,,252546
-B023,Frankfurt,Neue Mainzer Straße 52,Germany,EMEA,265000,15,Mixed Use,Own,2011,75,1514,18,,250283
-B004,Boston,100 Federal Street,USA,NA,225000,12,Office,Lease,2010,75,1500,16,checked,406421
-B008,Toronto,200 Bay Street,Canada,NA,165000,9,Mixed Use,Lease,2007,70,943,18,,770410
-B013,Toronto,40 King Street West,Canada,NA,155000,9,Mixed Use,Lease,2005,70,886,18,,267504
+﻿building_id,city,address,country,region,size,floors,purpose,ownership,year_built,market_rate,employee_capacity,energy_target,leed_certified
+B001,New York,350 Fifth Avenue,USA,NA,285000,16,Office,Lease,2017,85,1900,16,TRUE
+B002,San Francisco,525 Market Street,USA,NA,320000,18,R&D,Own,2020,92,1600,20,TRUE
+B003,Chicago,233 South Wacker Drive,USA,NA,175000,10,Mixed Use,Lease,2013,65,1000,18,FALSE
+B004,Boston,100 Federal Street,USA,NA,225000,12,Office,Lease,2010,75,1500,16,TRUE
+B005,Seattle,1201 Third Avenue,USA,NA,120000,2,Data Center,Own,2022,70,30,50,TRUE
+B006,New York,11 Times Square,USA,NA,450000,25,Office,Lease,2018,85,3000,16,TRUE
+B007,San Francisco,101 California Street,USA,NA,380000,20,R&D,Own,2021,92,1900,20,TRUE
+B008,Toronto,200 Bay Street,Canada,NA,165000,9,Mixed Use,Lease,2007,70,943,18,FALSE
+B009,Vancouver,1055 Dunsmuir Street,Canada,NA,40000,1,Retail,Own,2015,65,20,22,TRUE
+B010,Montreal,1981 McGill College Avenue,Canada,NA,185000,10,Office,Lease,2019,60,1233,16,TRUE
+B011,Chicago,401 North Michigan Avenue,USA,NA,55000,2,Retail,Lease,2016,65,40,22,TRUE
+B012,San Francisco,555 Mission Street,USA,NA,290000,16,R&D,Own,2018,92,1450,20,FALSE
+B013,Toronto,40 King Street West,Canada,NA,155000,9,Mixed Use,Lease,2005,70,886,18,FALSE
+B014,Boston,125 High Street,USA,NA,245000,14,Office,Own,2014,75,1633,16,TRUE
+B015,Seattle,800 Fifth Avenue,USA,NA,110000,2,Data Center,Lease,2021,70,35,50,TRUE
+B016,Vancouver,1040 West Georgia Street,Canada,NA,60000,2,Retail,Lease,2019,65,25,22,TRUE
+B017,Montreal,1250 René-Lévesque Boulevard,Canada,NA,310000,17,Mixed Use,Own,2017,60,1771,18,FALSE
+B018,London,20 Fenchurch Street,UK,EMEA,425000,23,Office,Lease,2020,95,2833,16,TRUE
+B019,Frankfurt,Mainzer Landstraße 100,Germany,EMEA,280000,16,Mixed Use,Own,2013,75,1600,18,FALSE
+B020,Paris,1 Avenue des Champs-Élysées,France,EMEA,315000,18,R&D,Lease,2016,85,1575,20,TRUE
+B021,Madrid,Paseo de la Castellana 200,Spain,EMEA,130000,3,Data Center,Own,2021,70,45,50,TRUE
+B022,London,25 Churchill Place,UK,EMEA,385000,21,Office,Lease,2018,95,2567,16,TRUE
+B023,Frankfurt,Neue Mainzer Straße 52,Germany,EMEA,265000,15,Mixed Use,Own,2011,75,1514,18,FALSE
+B024,Barcelona,Avinguda Diagonal 640,Spain,EMEA,30000,1,Retail,Lease,2017,65,15,22,TRUE
+B025,Amsterdam,Gustav Mahlerlaan 10,Netherlands,EMEA,120000,2,Data Center,Own,2020,70,30,50,TRUE
+B026,London,One Canada Square,UK,EMEA,405000,22,Office,Lease,2019,95,2700,16,TRUE
+B027,Madrid,Calle de Alcalá 500,Spain,EMEA,275000,15,Mixed Use,Own,2014,70,1571,18,FALSE
+B028,Paris,Tour First - 1 Place des Saisons,France,EMEA,305000,17,R&D,Lease,2015,85,1525,20,TRUE
+B029,Barcelona,Plaça Catalunya 123,Spain,EMEA,40000,1,Retail,Own,2022,65,20,22,TRUE
+B030,Amsterdam,Claude Debussylaan 80,Netherlands,EMEA,395000,22,Office,Lease,2017,70,2633,16,TRUE
+B031,Frankfurt,Taunusanlage 12,Germany,EMEA,255000,14,Mixed Use,Own,2012,75,1457,18,FALSE
+B032,Paris,Tour Majunga - 6 Place de la Pyramide,France,EMEA,285000,16,R&D,Lease,2018,85,1425,20,TRUE
+B033,Singapore,10 Marina Boulevard,Singapore,APAC,365000,20,Office,Lease,2020,88,2433,16,TRUE
+B034,Mumbai,G Block BKC,India,APAC,295000,16,Mixed Use,Own,2016,60,1686,18,FALSE
+B035,Tokyo,2-4-1 Marunouchi,Japan,APAC,245000,14,R&D,Lease,2014,100,1225,20,TRUE
+B036,Hong Kong,8 Finance Street,China,APAC,150000,3,Data Center,Own,2021,95,40,50,TRUE
+B037,Bangalore,1 Palace Road,India,APAC,345000,19,Office,Lease,2019,55,2300,16,TRUE
+B038,Sydney,100 Barangaroo Avenue,Australia,APAC,275000,15,Mixed Use,Own,2017,82,1571,18,FALSE
+B039,Delhi,DLF Cyber City Phase 3,India,APAC,35000,1,Retail,Lease,2013,58,15,22,TRUE
+B040,Singapore,10 Collyer Quay,Singapore,APAC,100000,2,Data Center,Own,2022,88,25,50,TRUE
+B041,Mumbai,Cuffe Parade,India,APAC,355000,19,Office,Lease,2018,60,2367,16,TRUE
+B042,Tokyo,5-1-5 Otemachi,Japan,APAC,285000,16,Mixed Use,Own,2015,100,1629,18,FALSE
+B043,Sydney,126 Phillip Street,Australia,APAC,225000,12,R&D,Lease,2012,82,1125,20,TRUE

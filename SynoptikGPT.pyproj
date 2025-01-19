@@ -29,10 +29,14 @@
     <Compile Include="src\agent\__init__.py" />
     <Compile Include="src\chat_gpt\app_cg.py" />
     <Compile Include="src\chat_gpt\app_cg_2.py" />
+    <Compile Include="src\chat_gpt\gpt_sql.py" />
     <Compile Include="src\cli\streamlit_app.py" />
+    <Compile Include="src\cli\streamlit_gpt.py" />
     <Compile Include="src\cli\__init__.py" />
     <Compile Include="src\data_manager.py" />
+    <Compile Include="src\data_manager\data_ingestion.py" />
     <Compile Include="src\data_manager\file_handler.py" />
+    <Compile Include="src\data_manager\generate_occupancy.py" />
     <Compile Include="src\data_manager\manager.py" />
     <Compile Include="src\data_manager\__init__.py" />
     <Compile Include="src\data_models\buildings.py" />
@@ -52,7 +56,9 @@
     <Compile Include="src\utils\data_loader_old.py" />
     <Compile Include="src\utils\gpt_helper.py" />
     <Compile Include="src\utils\openai_helper.py" />
+    <Compile Include="src\utils\postgresql_setup.py" />
     <Compile Include="src\utils\response_generator.py" />
+    <Compile Include="src\utils\test_connection.py" />
     <Compile Include="src\utils\utils.py" />
     <Compile Include="src\utils\__init__.py" />
     <Compile Include="src\__init__.py" />
@@ -69,6 +75,9 @@
     <Content Include=".env" />
     <Content Include="data\Buildings.csv" />
     <Content Include="data\Financial_Data.csv" />
+    <Content Include="data\floors_occupancy.csv" />
+    <Content Include="data\floors_utilization_2024.csv" />
+    <Content Include="git_commit.bat" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="run.bat" />

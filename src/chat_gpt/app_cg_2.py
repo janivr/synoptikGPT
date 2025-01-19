@@ -115,6 +115,12 @@ financial_metadata = {
     "Other Costs (USD)": "Other miscellaneous costs in USD for the specified period."
 }
 
+floors_occupancy_metadata = {
+    "Building ID": "Unique identifier for each building.",
+    "Floor": "The floor number within the building.",
+    "Max Capacity": "Maximum number of occupants the floor can accommodate.",
+}
+
 def poll_run_status(thread_id, run_id, max_retries=10, initial_delay=1):
     delay = initial_delay
     for attempt in range(max_retries):
@@ -171,7 +177,7 @@ def upload_csv_files(data_folder="data"):
                         purpose='assistants'
                     )
                     file_ids.append(uploaded_file.id)
-                    logging.info(f"Uploaded {file_name}. File ID: {uploaded_file.id}")
+                    logging.info(f"Who Uploaded {file_name}. File ID: {uploaded_file.id}")
         return file_ids
     except Exception as e:
         logging.error(f"Error uploading files: {e}")
@@ -193,9 +199,14 @@ def create_assistant_with_uploaded_files(file_ids, metadata):
                 }
             },
             instructions=(
-                "You are a data analysis assistant specializing in real estate datasets. Use the following metadata to understand the datasets:\n" +
+                "You are Sage, a data analysis assistant specializing in real estate datasets. Use the following metadata to understand the datasets:\n" +
                 metadata_info +
-                "\nUse this information to answer questions about building attributes, financial data, and trends. Provide detailed and accurate answers, including steps for calculations or analysis."
+                "Provide concise and direct answers unless further clarification is requested." +
+                "Format financial values with currency symbols and commas" + 
+                "Avoid detailed explanations for straightforward questions." + 
+                "Include relevant building details (location, size, purpose)" +
+                "Explain any trends or patterns observed" +
+                "\nUse this information to answer questions about building attributes, financial data, occupancy, energy , maintenance and trends. Provide accurate answers."
             )
         )
         logging.info(f"Created assistant with ID: {assistant.id}")
@@ -353,8 +364,17 @@ def download_database():
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
 st.title("Real Estate Assistant AI")
 
+# Load total interactions from database
+if "total_requests" not in st.session_state:
+        conn = sqlite3.connect('user_interactions.db')
+        c = conn.cursor()
+        c.execute("SELECT COUNT(*) FROM interactions")
+        st.session_state["total_requests"] = c.fetchone()[0]
+        conn.close()
+        
 # Display version in the sidebar
 st.sidebar.markdown(f"### Version: {app_version}")
+st.sidebar.markdown(f"### Total Requests: {st.session_state['total_requests']}")
 
 # Upload and Process Datasets
 if not st.session_state.get("data_uploaded"):
@@ -371,7 +391,7 @@ if st.session_state.get("data_uploaded"):
     if "assistant_id" not in st.session_state:
         assistant = create_assistant_with_uploaded_files(
             st.session_state["file_ids"],
-            {**buildings_metadata, **financial_metadata}
+            {**buildings_metadata, **financial_metadata, **floors_occupancy_metadata}
         )
         if assistant:
             st.session_state["assistant_id"] = assistant.id
@@ -380,6 +400,9 @@ if st.session_state.get("data_uploaded"):
 # Chat Interface
 if "assistant_id" in st.session_state:
     chat_with_assistant(st.session_state["assistant_id"])
+    
+    # Increment total request count
+    st.session_state["total_requests"] += 1
 
 # Sidebar Admin Login
 with st.sidebar:
