@@ -178,6 +178,7 @@ def upload_csv_files(data_folder="data"):
                     )
                     file_ids.append(uploaded_file.id)
                     logging.info(f"Who Uploaded {file_name}. File ID: {uploaded_file.id}")
+
         return file_ids
     except Exception as e:
         logging.error(f"Error uploading files: {e}")
@@ -207,6 +208,7 @@ def create_assistant_with_uploaded_files(file_ids, metadata):
                 "Include relevant building details (location, size, purpose)" +
                 "Explain any trends or patterns observed" +
                 "\nUse this information to answer questions about building attributes, financial data, occupancy, energy , maintenance and trends. Provide accurate answers."
+
             )
         )
         logging.info(f"Created assistant with ID: {assistant.id}")
@@ -376,6 +378,7 @@ if "total_requests" not in st.session_state:
 st.sidebar.markdown(f"### Version: {app_version}")
 st.sidebar.markdown(f"### Total Requests: {st.session_state['total_requests']}")
 
+
 # Upload and Process Datasets
 if not st.session_state.get("data_uploaded"):
     file_ids = upload_csv_files()
@@ -403,6 +406,7 @@ if "assistant_id" in st.session_state:
     
     # Increment total request count
     st.session_state["total_requests"] += 1
+
 
 # Sidebar Admin Login
 with st.sidebar:

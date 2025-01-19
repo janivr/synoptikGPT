@@ -5,14 +5,17 @@ import matplotlib.pyplot as plt
 from collections import Counter
 
 def analyze_interactions():
+
     # Get the project root directory
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
     db_path = os.path.join(project_root, 'user_interactions.db')
+    
 
     # Connect to the database
     if not os.path.exists(db_path):
         print(f"Database not found at: {db_path}")
         return
+
 
     conn = sqlite3.connect(db_path)
     
@@ -47,6 +50,7 @@ def analyze_interactions():
         print(df['user_input'].value_counts().head().to_string())
 
         # Interactions over time
+
         plt.figure(figsize=(12, 6))
         daily_counts.plot(kind='line', marker='o', color='skyblue')
         plt.title('Daily Interactions')
@@ -69,7 +73,9 @@ def analyze_interactions():
     else:
         print("No interactions found in the database.")
 
+        
     conn.close()
 
 if __name__ == "__main__":
     analyze_interactions()
+
