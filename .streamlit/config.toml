@@ -1,0 +1,2 @@
+[server]
+scriptPath = "src/cli/streamlit_gpt.py"
