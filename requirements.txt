@@ -8,4 +8,5 @@ numpy
 airtable
 matplotlib
 sqlalchemy 
-psycopg2
+psycopg2-binary
+
