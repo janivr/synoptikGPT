@@ -13,4 +13,4 @@ app_log.log
 *.toml
 Buildings.xlsx
 user_interactions.db
-floors_occupancy.xlsx
+floors_occupancy.xlsx"data/floors_utilization_2024.csv" 
