@@ -4,7 +4,7 @@ import logging
 import os
 import sys
 from datetime import datetime, timedelta
-from chat_gpt.gpt_sql import (
+from src.chat_gpt.gpt_sql import (
     analyze_data_with_gpt,
     generate_sql_query,
     execute_validated_query,

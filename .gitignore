@@ -13,8 +13,5 @@ app_log.log
 *.toml
 Buildings.xlsx
 user_interactions.db
-<<<<<<< HEAD
 floors_occupancy.xlsx
 data/floors_utilization_2024.csv
-=======
->>>>>>> 8bee132dbfb3d93e534ff5d6fcf11f3617c50cee
