@@ -97,6 +97,26 @@ def add_to_chat_history(question, sql_query, answer):
         if datetime.now() - entry["timestamp"] <= MAX_CHAT_HISTORY_AGE
     ]
 
+def init_db():
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS interactions
+                 (id INTEGER PRIMARY KEY AUTOINCREMENT,
+                  timestamp TEXT,
+                  user_input TEXT,
+                  assistant_response TEXT)''')
+    conn.commit()
+    conn.close()
+ 
+def save_interaction(user_input, assistant_response):
+    conn = sqlite3.connect('user_interactions.db')
+    c = conn.cursor()
+    timestamp = datetime.now().isoformat()
+    c.execute("INSERT INTO interactions (timestamp, user_input, assistant_response) VALUES (?, ?, ?)",
+              (timestamp, user_input, assistant_response))
+    conn.commit()
+    conn.close()
+    
 
 def update_total_requests():
     """Update total requests in database and session state"""
@@ -130,7 +150,10 @@ def display_history(history):
         """
         st.markdown(question_html, unsafe_allow_html=True)
         st.markdown(answer_html, unsafe_allow_html=True)
-        
+
+# Initialize the database
+init_db()  
+    
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
 st.title("Synoptik Real Estate Assistant AI")
@@ -229,7 +252,8 @@ with query_container:
                     st.success(answer)                    
 
                 # Update counter and history
-                update_total_requests()
+                save_interaction(user_query,answer)    
+                #update_total_requests()
                 add_to_chat_history(user_query, sql_query, answer)
                 
                 # Reset form
