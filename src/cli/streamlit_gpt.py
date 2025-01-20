@@ -11,6 +11,8 @@ from src.chat_gpt.gpt_sql import (
     calculate_success_rate
 )
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 QUESTION_COLOR = "#0056D6"  # A shade of blue
 ANSWER_COLOR = "#009624"    # A shade of green
 
