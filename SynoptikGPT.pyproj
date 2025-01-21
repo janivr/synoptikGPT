@@ -52,6 +52,7 @@
     <Compile Include="src\query_processor.py" />
     <Compile Include="src\response_generator.py" />
     <Compile Include="src\utils\analyze_interactions.py" />
+    <Compile Include="src\utils\config.py" />
     <Compile Include="src\utils\data_loader.py" />
     <Compile Include="src\utils\data_loader_old.py" />
     <Compile Include="src\utils\gpt_helper.py" />
@@ -74,6 +75,7 @@
   <ItemGroup>
     <Content Include=".env" />
     <Content Include=".streamlit\config.toml" />
+    <Content Include=".streamlit\secrets.toml" />
     <Content Include="data\Buildings.csv" />
     <Content Include="data\Financial_Data.csv" />
     <Content Include="data\floors_occupancy.csv" />

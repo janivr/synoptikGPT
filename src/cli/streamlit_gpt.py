@@ -5,10 +5,10 @@ import os
 import sys
 from datetime import datetime, timedelta
 
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-print(sys.path)
+print(f"Path: {sys.path}")
 
+from src.utils.config import Config
 from src.chat_gpt.gpt_sql import (
     analyze_data_with_gpt,
     generate_sql_query,
@@ -47,7 +47,6 @@ logging.getLogger().addHandler(console_handler)
 # Read version from version.txt
 with open("version.txt", "r") as f:
     app_version = f.read().strip()
-
 
 def authenticate_admin():
     # Initialize the admin state if not already done
@@ -153,10 +152,16 @@ def display_history(history):
 
 # Initialize the database
 init_db()  
-    
+
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Assistant", layout="wide")
 st.title("Synoptik Real Estate Assistant AI")
+
+Config.DATABASE_URI = st.secrets["general"]["DATABASE_URI"]
+# Debugging (optional, for development only)
+print(f"Database URI from Config: {Config.DATABASE_URI}")
+st.write("Database URI:", Config.DATABASE_URI)
+print(f"Database URI from Env: {os.getenv("DATABASE_URI")}")
 
     
 # Load total interactions from the database

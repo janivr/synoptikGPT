@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
+from src.utils.config import Config
 
 load_dotenv()
 
@@ -129,7 +130,8 @@ client = OpenAI(api_key=openai.api_key)
 
 def connect_to_db():
     try:
-        database_uri = os.getenv("DATABASE_URI")
+        #database_uri = os.getenv("DATABASE_URI")
+        database_uri = Config.DATABASE_URI
 
         if not database_uri:
             raise ValueError("DATABASE_URI environment variable is not set")
